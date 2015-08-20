@@ -132,7 +132,7 @@ namespace NeatCat
             return destImage;
         }
 
-        public static Image FixeSize(Image image, int width, int height, bool needToFill)
+        public static Image FixImageSize(Image image, int width, int height, bool needToFill)
         {
             int sourceWidth = image.Width;
             int sourceHeight = image.Height;
